@@ -66,7 +66,7 @@
             <h4 class="text-lg text-slate-700 font-bold">More From Us</h4>
             <ul class="flex flex-col gap-2 mt-4">
                 <li>
-                    <a href="#"
+                    <a href="/blogs"
                         class="text-base text-slate-500 hover:text-curious-blue-800 font-semibold transition-colors duration-100 ease-in-out">
                         Our Blogs
                     </a>

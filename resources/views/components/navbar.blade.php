@@ -41,16 +41,16 @@
         </ul>
 
         <ul class="hidden md:flex gap-12">
-            <li><a href="#"
+            <li><a href="/#"
                     class="text-base text-slate-500 hover:text-curious-blue-800 font-semibold transition-colors duration-100 ease-in-out">Home</a>
             </li>
-            <li><a href="#"
+            <li><a href="/#about"
                     class="text-base text-slate-500 hover:text-curious-blue-800 font-semibold transition-colors duration-100 ease-in-out">About</a>
             </li>
-            <li><a href="#"
+            <li><a href="/#services"
                     class="text-base text-slate-500 hover:text-curious-blue-800 font-semibold transition-colors duration-100 ease-in-out">Services</a>
             </li>
-            <li><a href="#"
+            <li><a href="/#pricing"
                     class="text-base text-slate-500 hover:text-curious-blue-800 font-semibold transition-colors duration-100 ease-in-out">Pricing</a>
             </li>
         </ul>

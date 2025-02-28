@@ -51,7 +51,7 @@
             </div>
         </div>
         {{-- services --}}
-        <div class="bg-white w-full pt-36 pb-16 min-h-[600px]">
+        <div class="bg-white w-full pt-36 pb-16 min-h-[600px]" id="services">
             <div class="mx-auto text-center">
                 <h4 class="text-slate-700 font-bold text-base">Services</h4>
                 <h1 class="text-2xl mt-3 font-bold text-slate-800">Our Popular Services For You</h1>
@@ -135,7 +135,7 @@
     </div>
     <div class="bg-gradient-to-b from-slate-50 to-white overflow-hidden ">
         {{-- about --}}
-        <div class="max-w-5xl mx-auto p-4 ">
+        <div class="max-w-5xl mx-auto p-4" id="about">
             <div class="w-full flex flex-col md:flex-row py-10 md:py-20">
                 <div class="w-full md:w-1/2 relative">
                     <img src="/assets/woman-confuse.png" alt=""
@@ -164,7 +164,7 @@
             </div>
         </div>
         {{-- plan --}}
-        <div class="max-w-5xl mx-auto p-4" x-data="{ plan: 'uiux' }">
+        <div class="max-w-5xl mx-auto p-4" x-data="{ plan: 'uiux' }" id="pricing">
             <div class="w-full pt-10 md:pt-20 pb-10">
                 <h2 class="text-slate-700 text-2xl font-bold text-center">
                     Choose the plan that's right for you
@@ -417,5 +417,4 @@
             </div>
         </div>
     </div>
-    <x-footer></x-footer>
 </x-layout>
