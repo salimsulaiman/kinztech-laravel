@@ -62,8 +62,8 @@
                     <div class="flex flex-col gap-4">
                         <div
                             class="w-16 h-16 rounded-full bg-yellow-500 group-hover:bg-white transition-colors duration-150 ease-in-out overflow-hidden p-4 flex items-center justify-center">
-                            <MdDesignServices
-                                class="text-white text-4xl group-hover:text-curious-blue-500 transition-colors duration-150 ease-in-out" />
+                            <ion-icon name="color-palette-outline"
+                                class="text-white text-4xl group-hover:text-curious-blue-500 transition-colors duration-150 ease-in-out"></ion-icon>
                         </div>
                         <h2
                             class="text-slate-700 font-extrabold text-2xl mt-2 group-hover:text-white transition-colors duration-150 ease-in-out">
@@ -86,8 +86,9 @@
                     <div class="flex flex-col gap-4">
                         <div
                             class="w-16 h-16 rounded-full bg-curious-blue-500 group-hover:bg-white transition-colors duration-150 ease-in-out p-4 flex items-center justify-center">
-                            <MdWeb
-                                class="text-white text-4xl group-hover:text-curious-blue-500 transition-colors duration-150 ease-in-out" />
+                            <ion-icon name="desktop-outline"
+                                class="text-white text-4xl group-hover:text-curious-blue-500 transition-colors duration-150 ease-in-out"></ion-icon>
+
                         </div>
                         <h2
                             class="text-slate-700 font-extrabold text-2xl mt-2 group-hover:text-white transition-colors duration-150 ease-in-out">
@@ -110,8 +111,8 @@
                     <div class="flex flex-col gap-4">
                         <div
                             class="w-16 h-16 rounded-full bg-orange-500 group-hover:bg-white transition-colors duration-150 ease-in-out p-4 flex items-center justify-center">
-                            <MdOutlinePermMedia
-                                class="text-white text-4xl group-hover:text-curious-blue-500 transition-colors duration-150 ease-in-out" />
+                            <ion-icon name="camera-outline"
+                                class="text-white text-4xl group-hover:text-curious-blue-500 transition-colors duration-150 ease-in-out"></ion-icon>
                         </div>
                         <h2
                             class="text-slate-700 font-extrabold text-2xl mt-2 group-hover:text-white transition-colors duration-150 ease-in-out">
