@@ -23,16 +23,16 @@
             x-transition:leave="transition ease-in-out duration-300"
             x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 -translate-y-10"
             class="md:hidden absolute top-12 right-0 bg-white shadow-md w-full p-6 rounded-b-2xl space-y-4 z-30">
-            <li><a href="#"
+            <li><a href="/#"
                     class="text-base text-slate-500 hover:text-curious-blue-800 font-semibold transition-colors duration-100 ease-in-out">Home</a>
             </li>
-            <li><a href="#"
+            <li><a href="/#about"
                     class="text-base text-slate-500 hover:text-curious-blue-800 font-semibold transition-colors duration-100 ease-in-out">About</a>
             </li>
-            <li><a href="#"
+            <li><a href="/#services"
                     class="text-base text-slate-500 hover:text-curious-blue-800 font-semibold transition-colors duration-100 ease-in-out">Services</a>
             </li>
-            <li><a href="#"
+            <li><a href="/#pricing"
                     class="text-base text-slate-500 hover:text-curious-blue-800 font-semibold transition-colors duration-100 ease-in-out">Pricing</a>
             </li>
             <li><button

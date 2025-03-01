@@ -135,7 +135,7 @@
     </div>
     <div class="bg-gradient-to-b from-slate-50 to-white overflow-hidden ">
         {{-- about --}}
-        <div class="max-w-5xl mx-auto p-4" id="about">
+        <div class="max-w-5xl mx-auto px-4 py-10" id="about">
             <div class="w-full flex flex-col md:flex-row py-10 md:py-20">
                 <div class="w-full md:w-1/2 relative">
                     <img src="/assets/woman-confuse.png" alt=""
@@ -164,7 +164,7 @@
             </div>
         </div>
         {{-- plan --}}
-        <div class="max-w-5xl mx-auto p-4" x-data="{ plan: 'uiux' }" id="pricing">
+        <div class="max-w-5xl mx-auto px-4 py-8" x-data="{ plan: 'uiux' }" id="pricing">
             <div class="w-full pt-10 md:pt-20 pb-10">
                 <h2 class="text-slate-700 text-2xl font-bold text-center">
                     Choose the plan that's right for you
