@@ -17,14 +17,14 @@
                             <a href="#"
                                 class="font-medium px-3 py-1 text-sm bg-slate-100 hover:bg-slate-200 text-slate-600 rounded-full">{{ $post->category->name }}</a>
                         </div>
-                        <a href="#"
+                        <a href="{{ route('blogs.show', $post->slug) }}"
                             class="title text-base font-semibold text-slate-700 hover:text-slate-500 mt-4 line-clamp-2">
                             {{ $post->title }}
                         </a>
                         <p class="content text-sm text-slate-600 mt-4 text-justify leading-relaxed">
                             {{ $post->content }}
                         </p>
-                        <div class="flex gap-4 items-center mt-8">
+                        {{-- <div class="flex gap-4 items-center mt-8">
                             <div class="h-12 w-12 bg-slate-200 rounded-full overflow-hidden relative flex-shrink-0">
                                 <img src="{{ $post->user->picture }}" alt=""
                                     class="object-cover w-full h-full object-center">
@@ -34,7 +34,7 @@
                                     {{ $post->user->name }}</h4>
                                 <h5 class="text-sm font-medium text-slate-500 line-clamp-1">{{ $post->user->job }}</h5>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 @endforeach
             </div>

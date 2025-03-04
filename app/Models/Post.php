@@ -11,6 +11,10 @@ class Post extends Model
     /** @use HasFactory<\Database\Factories\PostFactory> */
     use HasFactory;
     protected $guarded = [];
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
 
     protected $with =  ['user', 'category'];
 

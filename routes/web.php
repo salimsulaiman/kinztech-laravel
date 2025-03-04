@@ -8,3 +8,4 @@ Route::get('/', function () {
     return view('pages.dashboard');
 });
 Route::get('/blogs', [PostController::class, 'index'])->name('blogs.index');
+Route::get('/blogs/{slug}', [PostController::class, 'show'])->name('blogs.show');

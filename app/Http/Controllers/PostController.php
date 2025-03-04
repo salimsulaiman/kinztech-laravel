@@ -39,9 +39,16 @@ class PostController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Post $post)
+    public function show($slug)
     {
         //
+        $post = Post::where('slug', $slug)->firstOrFail();
+        $posts = Post::where('category_id', $post->category->id)->where('id', '!=', $post->id)->get();
+        return view('pages.blog.index', [
+            'title' => 'Single Post',
+            'post' => $post,
+            'posts' => $posts
+        ]);
     }
 
     /**
